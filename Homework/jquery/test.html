@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jquery Demo</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+<div class="box story">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <center> <p>My name is <i>Vee Masangu</i>, I am 21 years old and this is my stories.</p></center>
+</div>
+
+<a href="#" id="story1">Story 1</a>
+<a href="#" id="story2">Story 2</a>
+<a href="#" id="story3">Story 3</a>
+<a href="#" id="story4">Story 4</a>
+
+<script type="text/javascript">
+
+$("#story1").click(function(){
+  //jquery here
+  $("#story1").hide();
+  $("#story2").show();
+  $(".box").html("<p>I was born in the Democratic Republic of Congo, in the capital. I went to a belgian school from the 1st grade to the 10th grade. During that time, I was a very popular student. Everybody wanted to be friends with me. When it came to school, I was not the student with the best grades. Most of my teachers were worrying about me...</p>");
+
+})
+$("#story2").click(function(){
+  //jquery here
+  $("#story2").fadeOut(1000);
+  $("#story3").fadeIn(1000);
+  $(".box").html("<p>Since I failed my 10th grade, my parents decided to put me in another school, an American high school. I hated their decision. First of all, I could not speak any English at that time then I thought about all my friends... Unfortunately, I had no choice. I went and most of the time, I spoke in French execpt in class. I realized that the American system was way too easy compares to the Belgian system. Even though my English was not that good, I had As and was still popular.</p>");
+
+})
+$("#story3").click(function(){
+  //jquery here
+  $("#story3").fadeIn(1500);
+  $("#story4").fadeOut(1500);
+  $(".box").html("<p>After my graduation in 2015, I got accepted at the <strong>University of Miami</strong>. I did not want to go but I knew how important it was for my mom and of course for my future. Arrived at UM, I knew no one. My first year was awful, I had no friends and was home sick. Since I did not take my two years in the American school seriously, I could not express myself properly in English and could not even understand my teachers. I remembered one day my advisor asked me here I was from and I answered YES! Or if anybody would approach me to ask me something or just to talk to me, I smiled and turned my head... My first year was a disaster. I went from being the most popular girl in high shcool to the least popular girl in college.</p>");
+
+})
+// $(".box").css("background", "gray");
+     $("#UM").click(function(){
+       $(".box").removeClass( "box-bob" );
+       $(".box").addClass( "box-big" );
+       $(".box").html("Woohooo you clicked UM!");
+     })
+
+$("#story4").click(function(){
+  //jquery here
+  $("#story4").hide();
+  $("#story1").show();
+  $(".box").html("<p> By the end of my sophomore year, I had few friends, I got more involved on campus, and I also found a job at the Wellness Center where I met a lot of people. Today, I love UM and I love living in Miami. I do not even want to go back in Congo because Miami is my now home now. My English is stronger than when I came, I work hard, I am persistent in everything that I do. I am currently a Junior now and plan to graduate in May 2019. I want to work hard and be the best. Today, I realized that being popular or being the least popular girl of your school will not define you. What will define you is the person you are and what differentiate you from others. I was a student who at first did not care about school but care about her popularity at school, but today that is no who I am. Today, I am a hard and persistent student, who want to be better than her classmates. </p> <p>This is my story!</p>")
+
+})
+
+
+</script>
+  </body>
+</html>

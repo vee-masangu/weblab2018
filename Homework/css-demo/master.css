@@ -1,0 +1,46 @@
+h1 {
+  color: red;
+  font-size: 32px;
+  font-family: 'Lato';sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 32px
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+.venus:hover {
+  background: purple;
+}
+p {
+  background: pink;
+  margin-top: 0;
+  font-family: 'Dosis', sans-serif;
+}
+.venus {
+  background: brown;
+  color: white;
+}
+.demo {
+  background: aqua;
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 2px dashed black;
+  border-radius: 60px;
+
+}
+
+.demo:hover {
+  box-shadow: 8px 8px 8px #000;
+  margin-left: 12px;
+  margin-top:12px;
+}
