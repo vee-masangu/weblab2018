@@ -21,10 +21,47 @@
   font-size: 22px;
 }
 
-.box-bob {
+.UM {
   border-radius: 5px;
-  border: 3px solid yellow;
+  border: 3px solid green;
   padding: 12px;
   color: #fff;
+  font-size: 22px;
+}
+
+#Sebas {
+  display: none;
+}
+.text{
+  text-align: center;
+}
+.title{
+  text-align: center
+}
+
+#story1{
+  text-decoration: none;
+  color: pink;
+  font-size: 22px;
+
+}
+#story2{
+  text-decoration: none;
+  color: gray;
+  font-size: 22px;
+}
+#story3{
+  text-decoration: none;
+  color: pink;
+  font-size: 22px;
+}
+#UM{
+  text-decoration: none;
+  color: gray;
+  font-size: 22px;
+}
+#story4{
+  text-decoration: none;
+  color: pink;
   font-size: 22px;
 }

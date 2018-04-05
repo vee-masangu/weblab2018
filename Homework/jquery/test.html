@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <center><h1>MY STORIES</h1>
+      <div class="title"><h1>MY STORIES</h1></div>
       <a href="#" id="story1">Story 1</a>
       <a href="#" id="story2">Story 2</a>
       <a href="#" id="story3">Story 3</a>
@@ -17,12 +17,14 @@
     </header>
 <div class="box story">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-  <center> <p>My name is <i>Vee Masangu</i>, I am 21 years old and this is my stories.</p>
-  <img src="images/me.jpg" alt="Me" id="me"></center>
+  <div class="text"> <p>My name is <i>Vee Masangu</i>, I am 21 years old and this is my stories.</p></div>
+  <img src="images/me.jpg" alt="Me" id="me">
+
    </div>
-<div class="UM">
-  <img src="images/Sebas.jpg" alt="Sebastian"  id="Sebas">
-</div>
+
+
+
+
 <script type="text/javascript">
 
 
@@ -51,7 +53,9 @@ $("#story3").click(function(){
      $("#UM").click(function(){
        $(".box").removeClass( "box-bob" );
        $(".box").addClass( "box-big" );
-       $(".box").html("Yeaaaa you just clicked UM!");
+       $(".box").html("Yeaaaa you just clicked UM! <br><img src='images/Sebas.jpg'>");
+
+
 
 
      })
