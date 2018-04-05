@@ -2,25 +2,21 @@
   background: gray;
   font-family: 'Great Vibes', cursive;
   margin: 15px;
-  width: 550px;
+  width: 570px;
   height: 500px;
   border: 3px dashed pink;
   color: #fff;
 }
 
-.box:boxstory{
-  font-size: 30px;
-}
-
-
-.boxstory {
-  text-align: center;
-}
 
 .box-big {
-  border-radius: 5px;
-  border: 3px solid #000;
+  border-radius: 10px;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  border: 5px dashed pink;
   padding: 12px;
+  width: 650px;
+  height: 600px;
   color: #fff;
   font-size: 22px;
 }

@@ -7,17 +7,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
+    <header>
+      <center><h1>MY STORIES</h1>
+      <a href="#" id="story1">Story 1</a>
+      <a href="#" id="story2">Story 2</a>
+      <a href="#" id="story3">Story 3</a>
+      <a href="#" id="UM">Click UM!</a>
+      <a href="#" id="story4">Story 4</a></center>
+    </header>
 <div class="box story">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-  <center> <p>My name is <i>Vee Masangu</i>, I am 21 years old and this is my stories.</p></center>
+  <center> <p>My name is <i>Vee Masangu</i>, I am 21 years old and this is my stories.</p>
+  <img src="images/me.jpg" alt="Me" id="me"></center>
+   </div>
+<div class="UM">
+  <img src="images/Sebas.jpg" alt="Sebastian"  id="Sebas">
 </div>
-
-<a href="#" id="story1">Story 1</a>
-<a href="#" id="story2">Story 2</a>
-<a href="#" id="story3">Story 3</a>
-<a href="#" id="story4">Story 4</a>
-
 <script type="text/javascript">
+
 
 $("#story1").click(function(){
   //jquery here
@@ -35,8 +42,8 @@ $("#story2").click(function(){
 })
 $("#story3").click(function(){
   //jquery here
-  $("#story3").fadeIn(1500);
-  $("#story4").fadeOut(1500);
+  $("#story3").fadeOut(1500);
+  $("#story4").fadeIn(1500);
   $(".box").html("<p>After my graduation in 2015, I got accepted at the <strong>University of Miami</strong>. I did not want to go but I knew how important it was for my mom and of course for my future. Arrived at UM, I knew no one. My first year was awful, I had no friends and was home sick. Since I did not take my two years in the American school seriously, I could not express myself properly in English and could not even understand my teachers. I remembered one day my advisor asked me here I was from and I answered YES! Or if anybody would approach me to ask me something or just to talk to me, I smiled and turned my head... My first year was a disaster. I went from being the most popular girl in high shcool to the least popular girl in college.</p>");
 
 })
@@ -44,16 +51,17 @@ $("#story3").click(function(){
      $("#UM").click(function(){
        $(".box").removeClass( "box-bob" );
        $(".box").addClass( "box-big" );
-       $(".box").html("Woohooo you clicked UM!");
-     })
+       $(".box").html("Yeaaaa you just clicked UM!");
 
+
+     })
 $("#story4").click(function(){
   //jquery here
   $("#story4").hide();
   $("#story1").show();
-  $(".box").html("<p> By the end of my sophomore year, I had few friends, I got more involved on campus, and I also found a job at the Wellness Center where I met a lot of people. Today, I love UM and I love living in Miami. I do not even want to go back in Congo because Miami is my now home now. My English is stronger than when I came, I work hard, I am persistent in everything that I do. I am currently a Junior now and plan to graduate in May 2019. I want to work hard and be the best. Today, I realized that being popular or being the least popular girl of your school will not define you. What will define you is the person you are and what differentiate you from others. I was a student who at first did not care about school but care about her popularity at school, but today that is no who I am. Today, I am a hard and persistent student, who want to be better than her classmates. </p> <p>This is my story!</p>")
+  $(".box").html("<p> By the end of my sophomore year, I had few friends, I got more involved on campus, and I also found a job at the Wellness Center where I met a lot of people. Today, I love UM and I love living in Miami. I do not even want to go back in Congo because Miami is my new home now. My English is stronger than when I came, I work hard, I am persistent in everything I do. I am currently a Junio and plan to graduate in May 2019. I want to work hard and be the best. Today, I realized that being popular or being the least popular girl in your school will not define you. What will define you is the person you are and what differentiate you from others. I was a student who at first did not care about school but care about her popularity at school, but, today that's not who I am. Today, I am a hard and persistent student, who wants to be better than her classmates. </p> <p>This is my story!</p>");
 
-})
+});
 
 
 </script>
