@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+}
+.header{
+  color: white;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 180px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.navigation {
+  grid-area: navigation;
+  font-size: 30px;
+}
+
+.navigation ul {
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+}
+
+.navigation ul li {
+  background: black;
+  width: 100%;
+  margin-left: -10px;
+  margin-bottom: 2px;
+}
+
+.navigation ul li a {
+  background: none;
+  text-decoration: none;
+}
+
+.navigation ul li:hover {
+  background: white;
+}
+
+.navigation ul li:hover a {
+  color: gray;
+}
+
+#image {
+  column-count:4;
+  column-gap: 30px;
+   line-height:5;
+  -moz-column-count:4;
+  -webkit-column-count:4;
+  }
+
+#image img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.passions{
+  display: block;
+  grid-template-columns:4;
+  margin:8px;
+ -webkit-column-count:4;
+}
+/* .passions p {height: 300px;} */
+
+.passions img{
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.content img{
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.content{
+  display: block;
+  grid-template-columns:2;
+  margin:8px;
+ -webkit-column-count:2;
+}
+
+p{
+  color: white;
+}

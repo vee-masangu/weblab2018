@@ -1,0 +1,30 @@
+body {
+  background-color:#AEEAFF;
+}
+.fire {
+  max-width: 100%;
+}
+.name {
+  text-align: center;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 120px;
+}
+
+.introparagraph {
+  color: navy;
+  font-size: 22px;
+}
+
+.restaurants{
+  font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: navy;
+}
+
+a:hover {
+  color: purple;
+}
