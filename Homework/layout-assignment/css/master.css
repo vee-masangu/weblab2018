@@ -44,6 +44,10 @@ a{
   color: gray;
 }
 
+.header{
+  font-family: 'Great Vibes', cursive;
+  font-size: 180px;
+}
 #image {
   column-count:4;
   column-gap: 30px;
@@ -58,31 +62,20 @@ a{
   margin: auto;
 }
 
-.passions{
-  display: block;
-  grid-template-columns:4;
-  margin:8px;
+.passions {
+  column-count:4;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  line-height:5;
+ -moz-column-count:4;
  -webkit-column-count:4;
 }
-/* .passions p {height: 300px;} */
-
 .passions img{
   width: 100%;
-  margin: auto;
   height: auto;
-}
-.content img{
-  width: 100%;
   margin: auto;
-  height: auto;
 }
-.content{
-  display: block;
-  grid-template-columns:2;
-  margin:8px;
- -webkit-column-count:2;
-}
-
 p{
   color: white;
 }
