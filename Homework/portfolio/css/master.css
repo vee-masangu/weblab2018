@@ -35,3 +35,37 @@
   background: black;
   color white;
 }
+.work img{
+  width: 100%;
+}
+h3{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+}
+address{
+  text-align: center;
+  font-size: 27px;
+}
+.contactinfo{
+  text-align: center;
+  font-size: 26px;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+a:link:hover {
+  color: gray;
+}
+h2{
+  font-size: 22px;
+}
+#img{
+text-align: center;
+}
+.logo{
+  text-align: center;
+}
