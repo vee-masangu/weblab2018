@@ -79,3 +79,9 @@ a{
 p{
   color: white;
 }
+.myself img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+}
